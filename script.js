@@ -1,5 +1,5 @@
 
-var slideIndex = 1;
+    var slideIndex = 1;
 showSlides(slideIndex);
 
 // Next/previous controls
@@ -28,8 +28,6 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-    
-
     //<![CDATA[
     function carouselfixes() {
         var carouselcontainer = document.getElementsByClassName("EBSCOcarouselContainer");
@@ -46,5 +44,4 @@ function showSlides(n) {
     }
     window.addEventListener("load", carouselfixes(), false);
     //]]>
-
-    
+ 
